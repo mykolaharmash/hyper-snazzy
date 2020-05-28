@@ -1,5 +1,5 @@
 'use strict';
-const foregroundColor = '#eff0eb';
+const foregroundColor = '#ffffff';
 const backgroundColor = '#282a36';
 const red = '#ff5c57';
 const green = '#5af78e';
@@ -23,7 +23,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
 		blue,
 		magenta,
 		cyan,
-		white: '#f1f1f0',
+		white: '#ffffff',
 		lightBlack: '#686868',
 		lightRed: red,
 		lightGreen: green,
@@ -51,10 +51,10 @@ exports.decorateConfig = config => Object.assign({}, config, {
 			transform: scaleX(0);
 			will-change: transform;
 		}
-		.tab_tab.tab_active::before {
+		/*.tab_tab.tab_active::before {
 			transform: scaleX(1);
 			transition: all 200ms cubic-bezier(0, 0, 0.2, 1);
-		}
+		}*/
 
 		/* Fade the title of inactive tabs and the content of inactive panes */
 		.tab_text,
